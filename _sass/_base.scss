@@ -62,5 +62,8 @@ a.underline--magical {
 }
 
 .text-primary {
-    color: $secondary !important;
+    color: $primary !important;
+}
+.border-primary {
+    border-color: $primary !important;
 }

@@ -8,6 +8,11 @@ body {
   font-weight: 500;
 }
 
+hr {
+  border-top: 2px solid rgba(0,0,0,.1);
+  width: 200px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noah';
   font-weight: 700;

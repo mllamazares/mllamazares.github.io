@@ -41,7 +41,7 @@
 
       {% for html_page in filtered_pages %}  
         {%- if page.title == "Projects" -%}
-          {%- if html_page.url =="/" -%}
+          {%- if html_page.title == page.title -%}
              {%- assign active_status = "active" -%}
            {%- else -%}
              {%- assign active_status = "" -%}

@@ -1,21 +1,21 @@
 @charset "utf-8";
 
 // Custom Fonts
-@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Raleway:wght@300&display=swap');
 
 @font-face {
     font-family: 'Noah';
     font-style: normal;
     font-weight: 400;
     src: url(../fonts/Noah-Regular.woff) format('woff');
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'Noah';
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
     src: url(../fonts/Noah-Bold.woff) format('woff');
-  }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",

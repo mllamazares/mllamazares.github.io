@@ -38,11 +38,14 @@
       {%- endfor -%}
 
       {% for html_page in filtered_pages %}  
-
-        {%- if page.url contains html_page.url -%}
-          {%- assign active_status = "active" -%}
+        {%- if page.url == '/' and html_page.url =='/' -%}
+           {%- assign active_status = "active" -%}
         {%- else -%}
-          {%- assign active_status = "" -%}
+          {%- if page.url contains html_page.url -%}
+            {%- assign active_status = "active" -%}
+          {%- else -%}
+            {%- assign active_status = "" -%}
+          {%- endif -%}
         {%- endif -%}
 
         {%- if html_page.external_url -%}

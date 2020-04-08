@@ -79,3 +79,11 @@ a.underline--magical:hover {
 .border-primary {
     border-color: $primary !important;
 }
+
+p {
+  font-size: 1.1em;
+}
+
+.post pre {
+  font-family: 'Fira Code', monospace;
+}

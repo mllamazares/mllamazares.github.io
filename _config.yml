@@ -1,9 +1,5 @@
 ### Site Settings ###
-title               : mllamazares
-description         : >-
-                      "I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production."
+title               : Portfolio - mllamazares
 baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : mllamazares/mllamazares.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
@@ -17,42 +13,38 @@ plugins:
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
-  - pages/index.md
+#  - pages/index.md
 
 ### Author Info ###
 author:
   name              : Miguel Llamazares
 #  image             : https://bit.ly/2KCvgVJ
-  behance           : your_username
+#  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : llamazaresmiguel@gmail.com
   facebook          : your_username
-  github            : your_username
+  github            : mllamazares
 # gitlab            : your_username
 # instagram         : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : mllamazares
+#  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 
-
 ### Posts ###
 permalink: /blog/:title
-
 
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
-
-
 
 ### Defaults for collections ###
 defaults:
@@ -61,8 +53,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-
-
 
 ### Exclude from processing ###
 exclude:

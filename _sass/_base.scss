@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  color: #666;
+  color: $grey;
 }
 
 .badge {
@@ -11,7 +11,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noah';
   font-weight: 700;
-  color: #111;
+  color: $black;
 }
 
 .navbar-nav a {
@@ -27,13 +27,13 @@ h1, h2, h3, h4, h5, h6 {
 .hello {
 	margin-top: 7em !important;
 	margin-bottom: 5em !important;
-  color: #666;
+  color: $grey;
 }
 
 .hello p {
 	font-size: 2em;
 	  font-weight: 400;
-	  color: #666;
+	  color: $grey;
 	  margin-top: 10px;
 	  font-family: 'Noah', sans-serif;
 	  font-style: normal;
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a.underline--magical {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
 
 #icon-navbar {

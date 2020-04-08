@@ -40,8 +40,12 @@
       {%- endfor -%}
 
       {% for html_page in filtered_pages %}  
-        {%- if page.title == "Projects" and html_page.url =="/" -%}
-           {%- assign active_status = "active" -%}
+        {%- if page.title == "Projects" -%}
+          {%- if html_page.url =="/" -%}
+             {%- assign active_status = "active" -%}
+           {%- else -%}
+             {%- assign active_status = "" -%}
+          {%- endif -%}
         {%- else -%}
           {%- if page.url contains html_page.url -%}
             {%- assign active_status = "active" -%}

@@ -84,6 +84,17 @@ a {
     border-color: $terciary !important;
 }
 
+.btn-outline-primary {
+    color: $terciary;
+    border-color: $terciary;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    color: $terciary;
+    border-color: $terciary;
+}
+
 p {
   font-size: 1.1em;
 }

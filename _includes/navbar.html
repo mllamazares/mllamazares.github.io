@@ -40,19 +40,15 @@
       {%- endfor -%}
 
       {% for html_page in filtered_pages %}  
-        {%- if page.title = "Projects" -%}
+        {%- if page.title == "Projects" -%}
           {%- if html_page.title == page.title -%}
              {%- assign active_status = "active" -%}
            {%- else -%}
              {%- assign active_status = "" -%}
           {%- endif -%}
         {%- else -%}
-          {%- if page.url contains html_page.url -%} 
-            {%- if html_page.title == "Projects" -%}
-               {%- assign active_status = "" -%}
-            {%- else -%}
-               {%- assign active_status = "active" -%}
-            {%- endif -%}
+          {%- if page.url contains html_page.url and html_page.title != "Projects"-%} 
+            {%- assign active_status = "active" -%}
           {%- else -%}
             {%- assign active_status = "" -%}
           {%- endif -%}

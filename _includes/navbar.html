@@ -47,8 +47,12 @@
              {%- assign active_status = "" -%}
           {%- endif -%}
         {%- else -%}
-          {%- if page.url contains html_page.url and page.title != "Projects" -%} 
-            {%- assign active_status = "active" -%}
+          {%- if page.url contains html_page.url -%} 
+            {%- if html_page.title == "Projects" -%}
+               {%- assign active_status = "" -%}
+            {%- else -%}
+               {%- assign active_status = "active" -%}
+            {%- endif -%}
           {%- else -%}
             {%- assign active_status = "" -%}
           {%- endif -%}

@@ -47,7 +47,7 @@
              {%- assign active_status = "" -%}
           {%- endif -%}
         {%- else -%}
-          {%- if page.url contains html_page.url and page.title <> "Project" -%} 
+          {%- if page.url contains html_page.url and page.title <> "Projects" -%} 
             {%- assign active_status = "active" -%}
           {%- else -%}
             {%- assign active_status = "" -%}
@@ -59,8 +59,7 @@
         {%- else -%}
           {%- assign url = html_page.url | relative_url -%}
         {%- endif -%}
-      
-        <h4> {{ page.title }} - {{ html_page.title }} </h4>
+
         <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
 
       {% endfor %}

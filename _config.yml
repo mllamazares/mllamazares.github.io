@@ -44,7 +44,7 @@ permalink: /blog/:title
 collections:
   portfolio:
     output: true
-    permalink: /projects/:name
+    permalink: /portfolio/:name
 
 ### Defaults for collections ###
 defaults:

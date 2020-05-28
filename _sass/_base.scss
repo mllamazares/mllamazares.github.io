@@ -1,5 +1,8 @@
+$font-prim: "Recoleta";
+
+
 body {
-  font-family: "Noah", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 300;
   color: $grey;
 }
@@ -31,16 +34,16 @@ h1, h2, h3, h4, h5, h6 {
 	  font-weight: 300;
 	  color: $grey;
 	  margin-top: 10px;
-	  font-family: 'Noah', sans-serif;
+	  font-family: 'Manrope', sans-serif;
 	  font-style: normal;
 }
 
 .hello p a.highlight {
 	font-weight: 700;
 	color: #111;
-	font-family: 'Recoleta', 'Noah', sans-serif;
-	font-size: 1.1em;
-	padding-left: 0 0.1em;
+	font-family: 'Recoleta', 'Manrope', sans-serif;
+	font-size: 1.05em;
+	padding: 0 0.12em;
 }
 
 .underline--magical {

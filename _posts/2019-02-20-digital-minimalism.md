@@ -39,7 +39,7 @@ cd unattended
 ## 4. Access from the IBM emulator
 
 ```bash
-~/mvs/mvs &
+~/mainframe/mvs &
 x3270 localhost:3270
 ```
 
@@ -48,6 +48,7 @@ x3270 localhost:3270
 I hope this has helped at least one person out there better manage their digital engagement. When I was first starting my foray into this way of thinking, this documentary by Matt D'Avella really helped me understand what minimalism was all about and is something I’d recommend if you’d like to learn more!
 
 ### Bonus track
+recommend if you’d like to learn more!
 
 ## Bottom line
 Lorem ipsum dolor sit amet.

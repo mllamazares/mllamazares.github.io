@@ -94,8 +94,8 @@ p {
   font-size: 1.1em;
 }
 
-.post pre {
-  font-family: 'Fira Code', monospace;
+code, kbd, pre, samp {
+  font-family: 'Fira Code', Consolas, monospace !important;
 }
 
 .input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group>.input-group-append:last-child>.input-group-text:not(:last-child), .input-group>.input-group-append:not(:last-child)>.btn, .input-group>.input-group-append:not(:last-child)>.input-group-text, .input-group>.input-group-prepend>.btn, .input-group>.input-group-prepend>.input-group-text {

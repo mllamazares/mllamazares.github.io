@@ -1,8 +1,8 @@
 ---
-name: Secure Code Warrior
-tools: [COBOL, Pentesting, pandas]
+name: Cibersecurity Trainings
+tools: [COBOL, Pentesting, Jira]
 image: ../assets/img/securecode_thum.jpg
-description: I worked implementing specific vulnerabilities with secure and insecure solutions to create training modules used by 20.000+ programmers.
+description: I implemented specific vulnerabilities with secure and insecure solutions to create training modules used by 20.000+ programmers.
 ---
 
 # The Movies Project

@@ -16,31 +16,32 @@ Anyways, here are five things I’ve done which have allowed me to be a particip
 
 ## 1. Install a terminal emulator
 
-``bash
+```bash
 sudo apt-get update && sudo apt-get install x3270
-``
+```
 
 ## 2. Download MVS
 
-``bash
-mkdir ~/mvs
-cd ~/mvs
+```bash
+mkdir ~/mainframe
+cd ~/mainframe
 wget http://wotho.ethz.ch/tk4-/tk4-_v1.00_current.zip
-``
+```
 
 ## 3. Start the mainframe
 
-``bash
+```bash
+unzip tk4-_v1.00_current.zip
 cd unattended
 ./set_console_mode
-``
+```
 
 ## 4. Access from the IBM emulator
 
-``bash
-./mvs &
+```bash
+~/mvs/mvs &
 x3270 localhost:3270
-``
+```
 
 ### First steps
 

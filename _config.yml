@@ -42,7 +42,7 @@ permalink: /blog/:title
 
 ### Collections ###
 collections:
-  projects:
+  portfolio:
     output: true
     permalink: /projects/:name
 
@@ -50,7 +50,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "portfolio"
     values:
       layout: "page"
 

@@ -33,7 +33,7 @@
   {% endfor %}
 
   <!-- Local Projects -->
-  {% for project in site.projects %}
+  {% for project in site.portfolio %}
 
     {%- assign project_type  = "local" -%}
     {%- assign project_id    = project.name | slugify -%}
@@ -48,7 +48,7 @@
       {%- assign project_url = project.url | relative_url -%}
     {%- endif -%}
 
-    {% include projects/project-card.html %}
+    {% include portfolio/project-card.html %}
 
   {% endfor %}
 

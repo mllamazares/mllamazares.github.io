@@ -2,7 +2,7 @@
 name: Floor Plan Scanner
 tools: [Python, OCR, pandas]
 image: ../assets/img/house_plan_thum.jpg
-description: I created a way to automatise the manual work of an architecture firm
+description: I created a script to save tons of hours by automating the manual work of an architecture firm.
 ---
 
 # The Movies Project

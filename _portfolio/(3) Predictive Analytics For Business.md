@@ -2,7 +2,7 @@
 name: Predictive Analytics for Business
 tools: [Bussiness Analysis, Alteryx, Tableau]
 image: ../assets/img/nanodegree_thum.jpg
-description: I completed how to apply predictive analytics and business intelligence to solve real-world business problems.
+description: I learnt how to apply predictive analytics and business intelligence to solve real-world business problems.
 ---
 
 # The Movies Project

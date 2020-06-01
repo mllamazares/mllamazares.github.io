@@ -1,5 +1,5 @@
 ---
-name: Cibersecurity Trainings
+name: Cybersecurity Trainings
 tools: [COBOL, Pentesting, Jira]
 image: ../assets/img/securecode_thum.jpg
 description: I implemented specific vulnerabilities with secure and insecure solutions to create training modules used by 20.000+ programmers.

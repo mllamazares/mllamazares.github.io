@@ -13,6 +13,14 @@ layout: compress
     <article>
         {{ page.content }}
     </article>
+
+    <hr>
+    
+    <small>
+        {% for tag_slug in page.tags %}
+            <a href="{{ 'tag/' | relative_url }}{{ tag_slug }}" title="See all posts by {{ tag_slug }} tag">#{{ tag_slug }}</a>
+        {% endfor %}
+    </small>
 </main>
 
 {% include footer-post.html %}

@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+
+{% include head.html %}
+
+<main>
+    {% include header.html %}
+
+    <p>
+        Here are the posts tagged as <b>#{{page.tag}}</b>.<br>
+        <small><a href="{{ site.baseurl }}{{ site.Blog }}">Remove filter</a></small>
+    </p>
+    <ul class="blog-posts">
+        {% for post in site.posts %}
+            {% if post.tags contains page.tag %}
+                <li>
+                    <span>
+                        <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate="">
+                            {{ post.date | date: "%b %-d, %Y" }}
+                        </time>
+                    </span>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</main>
+
+</body>
+</html>

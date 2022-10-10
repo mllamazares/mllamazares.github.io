@@ -1,0 +1,34 @@
+I"<p>These holidays I’ve applied <a href="https://en.wikipedia.org/wiki/STRIDE_(security)">STRIDE</a> to identify the threats to which the minibar of my hotel was exposed!</p>
+
+<p>Here’s a high-level description of their system:</p>
+
+<ul>
+  <li>The minibars are located in the common spaces (e.g. swimming pool).</li>
+  <li>If you feel thirsty, just grab a drink from the (unlocked) minibar and write it down in the corresponding column of the sheet (see picture below).</li>
+  <li>They use fruits (rather than numbers) to identify each room.</li>
+  <li>At the end of your stay, the hotel owners gather and review the sheets and charge the corresponding bill.</li>
+</ul>
+
+<p><img src="/assets/images/stride-minibar.jpg" alt="Minibar tracking system" /></p>
+
+<p>OK, here we go with the threats:</p>
+
+<ul>
+  <li>🎭 <strong>Spoofing</strong>: grab a drink and write it down in a different guest room.</li>
+  <li>🤡 <strong>Tampering</strong>: drink a mineral water bottle and fill it in with tap water.</li>
+  <li>📝 <strong>Repudiation</strong>: steal a drink without writing it down in the sheet.</li>
+  <li>🔒 <strong>Information disclosure</strong>: track how many alcohol drinks guests have been taking lately (there is a privacy concern as it’s quite easy to link each room with their guests).</li>
+  <li>💥 <strong>Denial of service</strong>: steal the sheet so guests can no longer record their drinks. The hotel owners must find an alternative solution quickly, and I bet there are no backups.</li>
+  <li>👑 <strong>Elevation of privilege</strong>: grab the sheet, put on a dress shirt, go to each room, and ask for cash pretending a change in the process <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</li>
+</ul>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>By <a href="https://www.linkedin.com/in/jonathanrault/">Jonathan RAULT</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

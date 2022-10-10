@@ -4,6 +4,7 @@ url: "https://mllamazares.github.io"
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 whitelist:
   - jekyll-redirect-from
@@ -19,26 +20,12 @@ compress_html:
   ignore:
     envs: []
 
-collections:
-  my_tags:
-    output: true
-    permalink: /tagged/:slug/
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: tagged
-
-# baseurl: ""
+baseurl: ""
 permalink: /blog/:slug
 timezone: America/New_York
 future: false
 
 exclude:
 - README.md
-
-exclude: [vendor]
 
 Blog: /blog

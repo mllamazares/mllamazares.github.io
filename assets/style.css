@@ -24,13 +24,19 @@ a {
     text-decoration: none;
     background-image: linear-gradient(to right, #0984e3, #e84393);
     background-clip: text;
-    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 sup a{
     background-image: linear-gradient(to right, #0984e3, #e84393);
     background-clip: text;
-    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
     text-decoration: none;
     border-bottom: none;
 }
@@ -55,7 +61,10 @@ h2.title a {
 .footnote {
     background-image: linear-gradient(to right, #0984e3, #e84393);
     background-clip: text;
-    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
     font-size: 0.8em;
     text-decoration: none;
 }
@@ -86,6 +95,7 @@ main {
     text-decoration: none;
     border: 0;
     background-image: none;
+    background-clip: unset;
     -webkit-background-clip: unset;
     -webkit-text-fill-color: unset;
 }

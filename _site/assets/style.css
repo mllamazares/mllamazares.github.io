@@ -23,14 +23,14 @@ sup {
 a {
     text-decoration: none;
     background-image: linear-gradient(to right, #0984e3, #e84393);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 sup a{
     background-image: linear-gradient(to right, #0984e3, #e84393);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
     text-decoration: none;
     border-bottom: none;
 }
@@ -54,8 +54,8 @@ h2.title a {
 
 .footnote {
     background-image: linear-gradient(to right, #0984e3, #e84393);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
     font-size: 0.8em;
     text-decoration: none;
 }
@@ -82,9 +82,12 @@ main {
 }
 
 .reversefootnote {
-    color: #8843F2;
+    color: #111;
     text-decoration: none;
     border: 0;
+    background-image: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
 }
 
 .title {

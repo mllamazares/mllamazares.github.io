@@ -1,6 +1,6 @@
-title: ~mllamazares
+title: mllamazares
 description: Miguel Llamazares' personal website
-url: "https://mllamazares.github.io"
+url: "https://mllamazares.vercel.app"
 
 plugins:
   - jekyll-redirect-from

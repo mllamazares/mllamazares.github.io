@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-bear-theme (0.1.3)
+    jekyll-mllamazares-theme (0.0.1)
       jekyll (~> 4.2)
       jekyll-redirect-from (~> 0.16.0)
       webrick (~> 1.7.0)
@@ -74,7 +74,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll-bear-theme!
+  jekyll-mllamazares-theme!
   jekyll-seo-tag
 
 BUNDLED WITH
